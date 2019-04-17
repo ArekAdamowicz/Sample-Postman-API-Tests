@@ -4,7 +4,7 @@ echo "So it begins!"
 
 echo "Checking if Newman is installed"
 if hash newman 2>/dev/null; then 
-    echo "Newman installed"
+	echo "Newman installed"
 else 
 	echo "Newman is not installed. Please check Readme to get more details on installing Newman."
 	exit
@@ -14,7 +14,7 @@ echo "Checking if global variables exist"
 file="Trello.postman_globals.json"
 if [ -f "$file" ]
 then
-    echo "File $file exist."
+	echo "File $file exist."
 else
 	echo "File $file does not exist. Please check Readme to get more details on creating a global variables file."
 	exit
