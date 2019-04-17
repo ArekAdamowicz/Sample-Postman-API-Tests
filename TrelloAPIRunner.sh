@@ -2,11 +2,11 @@
 
 echo "So it begins!"
 
-echo "Checking if newman is installed"
+echo "Checking if Newman is installed"
 if hash newman 2>/dev/null; then 
     echo "Newman installed"
 else 
-	echo "Please install Newman"
+	echo "Newman is not installed. Please check Readme to get more details on installing Newman."
 fi
 
 echo "Checking if global variables exist"
