@@ -1,0 +1,21 @@
+{
+	"id": "51eff630-9c7f-4dc4-868b-d83cddc07d24",
+	"values": [
+		{
+			"key": "trelloKey",
+			"value": "Enter your key here",
+			"description": "",
+			"enabled": true
+		},
+		{
+			"key": "trelloToken",
+			"value": "Enter your token here",
+			"description": "",
+			"enabled": true
+		}
+	],
+	"name": "Trello",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2019-04-16T13:46:14.146Z",
+	"_postman_exported_using": "Postman/7.0.7"
+}
