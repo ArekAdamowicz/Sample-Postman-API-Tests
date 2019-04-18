@@ -12,4 +12,5 @@ before_script:
   - chmod +x TrelloAPIRunner.sh
 
 script:
-  - ./TrelloAPIRunner.sh
+  - newman run Trello.postman_collection.json --global-var "trelloKey=$trelloKey" --global-var "trelloToken=$trelloToken"  -e Trello.postman_environment.json -r cli,junit -- reporter-junit-export-test-results/junit-results.xml
+
