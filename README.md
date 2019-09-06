@@ -62,5 +62,5 @@ Open repository dictionary in a terminal and run the script:
 $ ./TrelloAPIRunner.sh
 ```
 
-## 5. The output
+## 6. The output
 Test output will be in `newman` folder.
